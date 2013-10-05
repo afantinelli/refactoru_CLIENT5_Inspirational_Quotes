@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="refactoru_CLIENT5_Inspirational_Quotes_quotes.css">
+  <title>Quotes</title>
+</head>
+
+<body>
+
+  <h1>Inspirational Quotes</h1>
+<!-- Update in real time when quotes are added, deleted, rated. -->
+<!-- Users can rate quotes 1-5 stars -->
+<!-- Quotes should be sorted by rating -->
+
+<fieldset class="form">
+		<label for="input">Insert Quote &amp Author Here</label><br>
+		Quote: <input type="text" class="Q"><br>
+		Author: <input type="text" class="A"><br>
+		Stars:
+	<select class="stars">
+		<option value="1">*</option>
+		<option value="2">**</option>
+		<option value="3">***<option>
+		<option value="4">****</option>
+		<option value="5">*****</option>
+	</select><br>
+<input type="submit" id="submitbutton" class="click" value="Submit Quote">
+</fieldset>
+
+
+<!-- User can delete a quote  -->
+<!-- User can undo last action -->
+
+<div class="list">
+<h2>List of Quotes</h2>
+
+<p></p>
+
+</div>
+
+
+<!-- User can click on author of quote to visit a page of quotes from author. -->
+<div class="authorpage">
+<h3><a href="refactoru_CLIENT5_Inspirational_Quotes_quotes.html">Author Page</a></h3>
+
+</div>
+
+<!-- Random Quote button that selects quote at random. -->
+<div class="randomquote">
+	<!-- BELOW IS NOT CORRECT -->
+	<h3>Random Quote</h3>
+
+	<!-- <input type="random" id="randombutton" class="click" value="Random Quote"> -->
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<script src ="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="quotes.js"></script>
+</body>
+</html>

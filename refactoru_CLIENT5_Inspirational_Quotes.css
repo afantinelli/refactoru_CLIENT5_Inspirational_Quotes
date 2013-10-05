@@ -1,0 +1,48 @@
+.list, .authorpage, .randomquote {
+	background-color: pink;
+	font-family: sans-serif;
+	text-align:center;
+	margin-left: 30%;
+	margin-right: 30%;
+	border-radius: 10px;
+	background: -webkit-linear-gradient(top, pink, white);
+	box-shadow: 10px 10px 5px silver;
+	border: 3px solid pink;
+}
+
+p {
+	color: yellow;
+}
+
+.form {
+	text-align: right;
+	margin-right: 80%;
+	background-color: wheat;
+	border-radius: 10px;
+}
+
+#submitbutton {
+	color: green;
+}
+
+body {
+	font-family: cursive;
+}
+
+.authorpage {
+	
+	background: -webkit-linear-gradient(top, thistle, white);
+	border: 3px solid thistle;
+}
+.randomquote {
+	
+	background: -webkit-linear-gradient(top, skyblue, white);
+	border: 3px solid skyblue;
+
+}
+
+a {
+	font-family: sans-serif;
+	text-decoration: none;
+	color: black;
+}
